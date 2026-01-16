@@ -1,8 +1,0 @@
-
-{
-  "name": "X-Ray with Blue",
-  "description": "تطبيق احترافي ذكي (أشعة بلو) يستخدم الذكاء الاصطناعي لتحليل صور الأشعة السينية فورياً.",
-  "requestFramePermissions": [
-    "camera"
-  ]
-}
