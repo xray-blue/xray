@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Ray with Blue </title>
+    <!-- Tailwind CSS via CDN - سيظل يعمل ولكن يفضل مستقبلاً استخدامه كـ Build Step -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+        @media print {
+            header, footer, button, .no-print {
+                display: none !important;
+            }
+            body {
+                background: white;
+            }
+        }
+        /* تحسينات إضافية للموبايل */
+        .safe-bottom {
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+    {
+      "imports": {
+        "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+        "react": "https://esm.sh/react@^19.2.3",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react-dom": "https://esm.sh/react-dom@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+      }
+    }
+    </script>
+  <script type="module" crossorigin src="/assets/index-Dls1DKLL.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- استخدام مسار نسبي لضمان التحميل الصحيح على GitHub Pages -->
+</body>
+</html>
